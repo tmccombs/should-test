@@ -155,9 +155,9 @@ the `test` module (in the example above: `some-general-tests.lisp`):
 
 ## Quickstart
 
-As the project just got started it's not in [quicklisp][ql].
-So to add it as an ASDF-dependency you have manually download/clone the project.
-The other option is to just take the file `src/should-test.lisp`
+The project is available in [quicklisp][ql] as "should-test".
+Alternatively, you can manually download/clone the project.
+Another option is to just take the file `src/should-test.lisp`
 and drop it into your project. It's designed to be self-contained:
 it contains the package definition
 and implements the core features of the framework.
